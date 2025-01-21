@@ -7,7 +7,7 @@ await esbuild.build({
     minify: true,
     sourcemap: true,
     logLevel: 'info',
-    target: 'es2022',
+    target: 'es2019',
     format: 'esm',
     outfile: pkg.main,
     legalComments: 'external',
